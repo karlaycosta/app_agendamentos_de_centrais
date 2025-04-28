@@ -3,10 +3,10 @@
 ## 1. Objetivo do App
 Gerenciar todos os aparelhos de ar-condicionado da instituição, controlando:
 - [x] Cadastro de aparelhos
-- [ ] Agendamento e histórico de manutenções preventivas/corretivas
-- Alertas para próximas manutenções
-- Relatórios de status
-- Registro de técnicos responsáveis
+- :negative_squared_cross_mark: Agendamento e histórico de manutenções preventivas/corretivas
+- :x: Alertas para próximas manutenções
+- :white_check_mark: Relatórios de status
+- :heavy_check_mark: Registro de técnicos responsáveis
 
 ## 2. Funcionalidades Principais
 
