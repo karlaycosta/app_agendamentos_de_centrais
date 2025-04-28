@@ -1,9 +1,9 @@
-# 📋 Roteiro de Desenvolvimento - App de Manutenção de Ar-Condicionados
+# 📋 Aplicativo de Manutenção de Ar-Condicionados
 
 ## 1. Objetivo do App
 Gerenciar todos os aparelhos de ar-condicionado da instituição, controlando:
-- Cadastro de aparelhos
-- Agendamento e histórico de manutenções preventivas/corretivas
+- [x] Cadastro de aparelhos
+- [ ] Agendamento e histórico de manutenções preventivas/corretivas
 - Alertas para próximas manutenções
 - Relatórios de status
 - Registro de técnicos responsáveis
@@ -147,17 +147,17 @@ Cada documento representa **um usuário do app ou do painel web**.
 - `tipo_usuario`: `String`
 - `uid`: `String`
 
-## 2. Relacionamentos
+## 🛠️ 2. Relacionamentos
 - Um **equipamento** pode ter **várias manutenções**.
 - Uma **manutenção** sempre está ligada a **um equipamento** e **um técnico**.
 - **Usuários** podem ser técnicos (fazem manutenção) ou gestores (acessam o painel web).
 
-## 3. Exemplos de Consultas
+## 📊 3. Exemplos de Consultas
 - Listar todos os equipamentos com manutenção prevista para os próximos 30 dias.
 - Listar histórico de manutenções de um equipamento.
 - Exibir o total de custo de manutenção por equipamento.
 
-## 4. Observações
+## 🔥 4. Observações
 - Manter documentos pequenos (< 1MB).
 - Criar índices para buscas combinadas.
 - Usar subcoleções apenas se necessário.
