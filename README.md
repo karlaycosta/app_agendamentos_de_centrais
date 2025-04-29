@@ -9,9 +9,11 @@ Este projeto visa desenvolver um aplicativo completo para gerenciar a manutenç�
 | 3. LUIZ GABRIEL GOMES SILVA | A definir |
 | 4. REBECA ANDRADE DA SILVA     | A definir  |
 
-[^1]: My reference.
+### 🧭 Orientadores:
+1. Deriks Karlay Dias Costa
+2. Landry Pereira da Silva
 
-## 🚀 1. Objetivo do App
+## 🚀 1. Objetivo do Aplicativo
 Gerenciar todos os aparelhos de ar-condicionado da instituição, controlando:
 1. ✅ Cadastro de aparelhos
 2. ✅ Agendamento e histórico de manutenções preventivas/corretivas
