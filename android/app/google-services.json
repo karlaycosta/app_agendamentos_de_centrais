@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477602692636",
+    "project_id": "agendamento-de-centrais",
+    "storage_bucket": "agendamento-de-centrais.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477602692636:android:368c5a048de4d823dda9d9",
+        "android_client_info": {
+          "package_name": "com.karlay.app_agendamentos_de_centrais"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCpln_lxF1E1arLItgFHoedSeQR5StX4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

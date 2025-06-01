@@ -2,12 +2,12 @@
 
 Este projeto visa desenvolver um aplicativo completo para gerenciar a manutenção de aparelhos de ar-condicionado em uma instituição. O aplicativo, desenvolvido com Flutter para compatibilidade mobile (Android e iOS) e web, terá um painel de gestão e utilizará o Firebase como backend. As principais funcionalidades incluem o cadastro de equipamentos, agendamento e histórico de manutenções, alertas, relatórios e registro de técnicos. O objetivo é gerenciar a manutenção dos aparelhos, reduzir custos e aumentar a vida útil dos ar-condicionados.
 
-| Integrantes   | Função        |
-| :---          |     :---:     |
-| 1. EDUARDO ROCHA D'AVANSO DE OLIVEIRA | A definir  |
-| 2. GABRIEL DE ABREU FERNANDES  | A definir  |
-| 3. LUIZ GABRIEL GOMES SILVA | A definir |
-| 4. REBECA ANDRADE DA SILVA     | A definir  |
+| Integrantes   |
+| :---          |
+| 1. EDUARDO ROCHA D'AVANSO DE OLIVEIRA |
+| 2. GABRIEL DE ABREU FERNANDES  |
+| 3. LUIZ GABRIEL GOMES SILVA |
+| 4. REBECA ANDRADE DA SILVA     |
 
 ### 🧭 Orientadores:
 1. Deriks Karlay Dias Costa
@@ -19,7 +19,6 @@ Gerenciar todos os aparelhos de ar-condicionado da instituição, controlando:
 2. ✅ Agendamento e histórico de manutenções preventivas/corretivas
 3. ✅ Alertas para próximas manutenções
 4. ✅ Relatórios de status
-5. ❓ Registro de técnicos responsáveis
 
 ## 📱 2. Funcionalidades Principais
 
@@ -36,8 +35,7 @@ Gerenciar todos os aparelhos de ar-condicionado da instituição, controlando:
 2. ✅ Tipo de manutenção (preventiva, corretiva)
 3. ✅ Descrição do serviço
 4. ✅ Data da manutenção
-5. ❓ Técnico responsável
-6. ✅ Custo da manutenção
+5. ✅ Custo da manutenção
 
 ### Alertas e Notificações
 1. ✅ Manutenção preventiva programada (baseada em periodicidade: ex. 6 meses)
