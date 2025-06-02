@@ -49,4 +49,4 @@ firebase.json
 /.firebase
 
 # Ignorar o arquivo firebase_options.dart
-/dart/lib/firebase_options.dart
+lib/firebase_options.dart
