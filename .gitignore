@@ -47,4 +47,6 @@ app.*.map.json
 firebase.json
 .firebaserc
 /.firebase
-/lib/firebase_options.dart
+
+# Ignorar o arquivo firebase_options.dart
+dart/lib/firebase_options.dart
