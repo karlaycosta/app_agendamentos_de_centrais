@@ -117,31 +117,19 @@ Cada documento representa **um ar-condicionado**.
 - `marca`: `String`
 - `modelo`: `String`
 - `capacidade_btus`: `Number`
-- `data_instalacao`: `Timestamp`
 - `estado`: `String`
-- `periodicidade_manutencao_meses`: `Number`
-- `proxima_manutencao`: `Timestamp`
+- `periodicidade`: `Number`
+- `proxima`: `Timestamp`
 
 ### `/manutencoes`
 Cada documento representa **uma manutenção realizada**.
 
 **Campos:**
-- `equipamento_id`: `Reference`
-- `tipo_manutencao`: `String`
+- `equipamento`: `Reference`
+- `tipo`: `String`
 - `descricao`: `String`
-- `data_manutencao`: `Timestamp`
-- `tecnico_id`: `Reference`
+- `data`: `Timestamp`
 - `custo`: `Number`
-
-### `/tecnicos`
-Cada documento representa **um técnico da manutenção**.
-
-**Campos:**
-- `nome`: `String`
-- `email`: `String`
-- `telefone`: `String`
-- `especializacao`: `String`
-- `ativo`: `Boolean`
 
 ### `/usuarios`
 Cada documento representa **um usuário do app ou do painel web**.
@@ -149,8 +137,7 @@ Cada documento representa **um usuário do app ou do painel web**.
 **Campos:**
 - `nome`: `String`
 - `email`: `String`
-- `tipo_usuario`: `String`
-- `uid`: `String`
+- `tipo: `String`
 
 ## 🔗 2. Relacionamentos
 - Um **equipamento** pode ter **várias manutenções**.
